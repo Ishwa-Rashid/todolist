@@ -54,25 +54,25 @@ To get this project up and running on your local machine, follow these steps:
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
--Fork the project.
--Create your feature branch:
+- Fork the project.
+- Create your feature branch:
 
   ```bash
    git branch BRANCH-NAME
    git checkout BRANCH-NAME
   ```
 
--Commit your changes:
+- Commit your changes:
 
   ```bash
    git add .
    git commit -m "a short description of the change"
   ```
 
--Push to the branch: git push
+- Push to the branch: git push
 
   ```bash
    git push
   ```
 
--Make a pull request.
+- Make a pull request.

@@ -29,13 +29,18 @@ app.get('/', function (req, res) {
 app.post('/', function (req, res){
     
     const item = req.body.newItem
-    if(req.body.listName == 'Work'){
-        workList.push(item)
-        res.redirect('/work')
-    }else{
-
-        items.push(item)
-        res.redirect('/')
+    if(item!=""){
+        if(req.body.Work){
+            workList.push(item);
+            res.redirect('/work');
+        }
+        else{
+            items.push(item)
+            res.redirect('/');
+        }
+    }
+    else{
+        res.status(204).send();
     }
 
 })

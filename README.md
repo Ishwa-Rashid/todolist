@@ -28,7 +28,7 @@ To get this project up and running on your local machine, follow these steps:
 2. Change to the project directory:
 
  ```bash
-   cd todolist-v1
+   cd todolist
  ```
 
 3. Install project dependencies:

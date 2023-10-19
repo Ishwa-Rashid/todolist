@@ -15,6 +15,11 @@
 				<input type="text" name="newItem" placeholder="New Item" autocomplete="off">
 				<button type="submit" name= <%= listName %> value= <%= listTitle %>>+</button>
 			</form>
+			<% if(listName!="Work"){%>
+			<a href="/work"><button class="work-btn">Work List</button></a>
+			<%}else{%>
+			<a href="/"><button class="main-btn">Main List</button></a>
+			<%}%>
         </div>
 
 <%- include('footer') -%>

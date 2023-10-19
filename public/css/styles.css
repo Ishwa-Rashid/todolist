@@ -105,17 +105,13 @@ footer {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
-<<<<<<< Updated upstream
-=======
 
 .work-btn,
 .main-btn {
-  padding: 15px 0;
-  border-bottom-left-radius: 5px !important;
-  border-bottom-right-radius: 5px !important;
   margin-top: 10px;
   cursor: pointer;
   width: 100%;
-  border-radius: unset;
+  padding: 15px 0;
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
 }
->>>>>>> Stashed changes

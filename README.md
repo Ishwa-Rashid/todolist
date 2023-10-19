@@ -22,7 +22,7 @@ To get this project up and running on your local machine, follow these steps:
 1. Clone this repository:
 
  ```bash
-   git clone https://github.com/Ishwa-Rashid/todolist-v1.git
+   git clone https://github.com/Ishwa-Rashid/todolist.git
  ```
 
 2. Change to the project directory:

@@ -23,13 +23,13 @@ app.get('/', function (req, res) {
 
     const day = date.getDay()
     
-    res.render('list', {listTitle:day,items:items})
+    res.render('list', {listName:"Normal", listTitle:day, items:items})
 })
 
 app.post('/', function (req, res){
     
     const item = req.body.newItem
-    if(req.body.listName = 'Work'){
+    if(req.body.listName == 'Work'){
         workList.push(item)
         res.redirect('/work')
     }else{
@@ -42,7 +42,7 @@ app.post('/', function (req, res){
 
 app.get('/work', function(req, res){
 
-    res.render('list',{listTitle:'Work List', items:workList})
+    res.render('list',{listName:"Work", listTitle:'Work List', items:workList})
 
 
 })
